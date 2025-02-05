@@ -6,6 +6,10 @@
   .nav-link {
     font-size: 1rem; /* Adjust font size of menu items */
   }
+  .navbar{
+    background-color: #0077b6;
+    color: #FFFFFF;
+  }
   
 
   /* Home section styling */
@@ -23,7 +27,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 50px;
-  background: #f8f8f8;
+  background: #caf0f8;
 }
 
 /* Main Container */
@@ -59,8 +63,8 @@ h5{
   padding: 10px 15px;
   margin: 10px 20px 20px 40px;
   border: none;
-  background: #007bff;
-  color: white;
+  background: #03045e;
+  color: #FFFFFF;
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
@@ -94,13 +98,13 @@ h5{
   height: 40px;
 }
 .highlight{
-  color: #e30f0f;
+  color: #0056b3;
 }
 .dynamic-text {
   font-weight: bold;
-  color: #007bff;
+  color: #0056b3;
   display: inline-block;
-  border-right: 3px solid #007bff;
+  border-right: 3px solid #0056b3;
   white-space: nowrap;
   overflow: hidden;
   width: 0;
@@ -181,7 +185,12 @@ h5{
 #education {
   padding: 50px;
   text-align: center;
-  background: #f9f9f9;
+  background: #caf0f8;
+}
+#education h2 {
+  font-size: 2em;
+  color: #03045e;
+  margin-bottom: 30px;
 }
 
 .education-container {
@@ -226,7 +235,12 @@ h5{
 #projects {
   padding: 50px;
   text-align: center;
-  background: #f1f1f1;
+  background: #90e0ef;
+}
+#projects h2 {
+  font-size: 2em;
+  color: #03045e;
+  margin-bottom: 30px;
 }
 
 .projects-container {
@@ -239,7 +253,7 @@ h5{
 }
 
 .project-card {
-  background: white;
+  background: #caf0f8;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   overflow: hidden;
@@ -317,14 +331,14 @@ h5{
 /* Skills Section */
 #skills {
   padding: 50px;
-  background: #f4f4f4;
+  background: #90e0ef;
   text-align: center;
 }
 
 /* Heading */
 #skills h2 {
   font-size: 2em;
-  color: #333;
+  color: #03045e;
   margin-bottom: 30px;
 }
 
@@ -345,7 +359,7 @@ h5{
   height: 300px;
   border-radius: 12px;
   overflow: hidden;
-  background-color: #fff;
+  background-color: #caf0f8;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
@@ -373,7 +387,7 @@ h5{
 .skill-text {
   font-size: 18px;
   font-weight: bold;
-  color: rgb(207, 24, 24);
+  color: #03045e;
   position: relative;
   z-index: 2;
   opacity: 0; /* Hidden initially */
@@ -388,7 +402,7 @@ h5{
   opacity: 0;
   padding-right: 15px;
   transition: opacity 0.3s ease-in-out;
-  color: rgb(224, 110, 110);
+  color: #0056b3;
 }
 
 .skill-details li {
@@ -400,7 +414,7 @@ h5{
 
 /* Bullet Style */
 .skill-details li::before {
-  content: "•";  /* Bullet point */
+  /* Bullet point */
   color: white;   /* Bullet color */
   font-weight: bold;
   position: absolute;
@@ -485,14 +499,14 @@ h5{
 /* About Me Section */
 #about {
   padding: 50px;
-  background: #f4f4f4;
+  background: #caf0f8;
   text-align: center;
 }
 
 /* Heading */
 #about h2 {
   font-size: 2em;
-  color: #333;
+  color: #03045e;
   justify-content: center;
   margin-bottom: 30px;
 }
@@ -543,7 +557,7 @@ h5{
 /* Personal Details Box */
 .details-box h3 {
   font-size: 1.2em;
-  color: #333;
+  color: #03045e;
   margin-bottom: 15px;
 }
 
