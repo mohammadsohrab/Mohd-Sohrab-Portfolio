@@ -172,7 +172,7 @@ h5{
   }
 
   .tech-stack ul {
-      flex-direction: column;
+      flex-direction: row;
       align-items: center;
   }
 
@@ -278,19 +278,19 @@ h5{
 }
 
 .project-info h3 {
-  color: #333;
+  color: #03045e;
   margin-bottom: 5px;
 }
 
 .project-info p {
   font-size: 14px;
-  color: #666;
+  color: #0077b6;
 }
 
 .project-info a {
   display: inline-block;
   margin-top: 10px;
-  color: #007bff;
+  color: #03045e;
   text-decoration: none;
   font-weight: bold;
 }
