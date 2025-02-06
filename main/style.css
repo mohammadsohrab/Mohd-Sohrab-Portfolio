@@ -173,6 +173,7 @@ h5{
 
   .tech-stack ul {
       flex-direction: row;
+      
       align-items: center;
   }
 
