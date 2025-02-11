@@ -1,337 +1,359 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sohrab's Portfolio</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    
+
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-light  fixed-top">
         <a class="navbar-brand" href="#">SOHRAB</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#education">Education</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#projects">Projects</a>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
                 </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#skills">Skills</a>
-              </li>
-                       
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About Me</a>
-            </li>
-      </ul>
-    </div>
-  </nav>
+                <li class="nav-item">
+                    <a class="nav-link" href="#education">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
 
-
-  <section id="home">
-    <div class="home-container">
-        <div class="home-text">
-            <h1>Welcome to My Portfolio</h1>
-            <h3>Hi, I'm <span class="highlight">Mohd Sohrab Sheikh</span></h3>
-            <h5>A passionate Java Developer specializing in backend development.<br>
-                I build scalable, efficient applications using <span class="dynamic-text"></span><br>
-                Take a look at my projects and skills below!</h5>
-
-            <div class="cta">
-                <button><a href="#projects">See My Projects</a></button>
-                <button><a href="#about">Learn More About Me</a></button>
-            </div>
-
-            <div class="tech-stack">
-                <h3>Technologies I Work With:</h3>
-                <ul>
-                    <li ><img src="resource/java-logo.png" alt="Java"></li>
-                    <li><img src="resource/spring-logo.svg" alt="Spring Boot"></li>
-                    <li><img src="resource/sql-database.svg" alt="SQL"></li>
-                    <li><img src="resource/html-logo.svg" alt="HTML"></li>
-                    <li><img src="resource/css-logo.svg" alt="CSS"></li>
-                    <li><img src="resource/js-logo.svg" alt="JS"></li>
-                </ul>
-            </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Me</a>
+                </li>
+            </ul>
         </div>
-
-        <div class="home-photo">
-            <img src="resource/pofile-removebg-preview.png" alt="Your Photo">
-        </div>
-    </div>
-</section>
+    </nav>
 
 
-<section id="projects">
-    <h2>My Projects</h2>
-    <div class="projects-container">
-        
-        <div class="project-card">
-            <img src="resource/Tic-Tac_Toe.png" alt="Project 1">
-            <div class="project-info">
-                <h3>Railway Ticket Booking System with Admin Interface</h3>
-                <p>This project demonstrates fundamental front-end development skills, including DOM manipulation, event handling, and game logic implementation in JavaScript.</p>
-                <h6>Features</h6>
-                <ul>
-                    <li>✅ User Registration & Login – Secure authentication system for passengers</li>
-                    <li>✅ RSearch Trains – Users can search for available trains based on source and destination</li>
-                    <li>✅ Ticket Booking – Allows users to select trains, choose seats, and confirm bookings</li>
-                    <li>✅ Booking History – Users can view their past bookings and print tickets</li>
-                    <li>✅ Admin Panel – Admins can add, update, or remove train schedules </li>
-                </ul>
-                <p>This project demonstrates core Java web development skills, including Servlets, JSP, JDBC, and MySQL, along with front-end design and user interaction handling.</p>
-                
-                <a href="https://github.com/mohammadsohrab/railway_ticket_booking" target="_blank">View on GitHub</a>
-            </div>
-        </div>
+    <section id="home">
+        <div class="home-container">
+            <div class="home-text">
+                <h1>Welcome to My Portfolio</h1>
+                <h3>Hi, I'm <span class="highlight">Mohd Sohrab Sheikh</span></h3>
+                <h5>A passionate Java Developer specializing in backend development.<br>
+                    I build scalable, efficient applications using <span class="dynamic-text"></span><br>
+                    Take a look at my projects and skills below!</h5>
 
-        <div class="project-card">
-            <img src="resource/Tic-Tac_Toe.png" alt="Project 2">
-            <div class="project-info">
-                <h3>Employee Management System (Backend - Spring Boot)</h3>
-                <p>The Employee Management System is a backend application designed to manage employee records, roles, and operations efficiently. Built using Spring Boot, it provides RESTful APIs for employee management, authentication, and role-based access control. The system is currently being tested using Postman, with plans for frontend integration in the future.</p>
-               <h6>Features</h6>
-                <ul>
-                    <li>✅ Employee CRUD Operations – Create, read, update, and delete employee records</li>
-                    <li>✅ Role-Based Access Control (RBAC) – Secure APIs with different user roles (Admin, Manager, Associate)</li>
-                    <li>✅ Authentication & Authorization – Secure login using JWT authentication</li>
-                    <li>✅ Department & Designation Management – Categorize employees into departments</li>
-                </ul>
-                <h6>Tech-Stack</h6>
-                <ul>
-                    <li>✅ Backend: Spring Boot, Spring Data JPA, Hibernate</li>
-                    <li>✅ Database: MySQL</li>
-                    <li>✅ Security: Spring Security, JWT</li>
-                    <li>✅ API Testing: Postman</li>
-                </ul>
-                <a href="https://github.com/mohammadsohrab/Employee-Management" target="_blank">View on GitHub</a>
-                
-            </div>
-        </div>
+                <div class="cta">
+                    <button><a href="#projects">See My Projects</a></button>
+                    <button><a href="#about">Learn More About Me</a></button>
+                </div>
 
-        <div class="project-card">
-            <img src="resource/Tic-Tac_Toe.png" alt="Project 3">
-            <div class="project-info">
-                <h3>Tic-Tac-Toe Game</h3>
-                <p>This is a simple yet engaging Tic-Tac-Toe game built using HTML, CSS, and JavaScript. The game features a clean and responsive design, allowing two players to take turns marking "X" and "O" on a 3x3 grid. The first player to align three marks horizontally, vertically, or diagonally wins the game.</p>
-                <h6>Features</h6>
-                <ul>
-                    <li>✅ Interactive two-player mode</li>
-                    <li>✅ Real-time game status updates</li>
-                    <li>✅ Winning combination detection</li>
-                    <li>✅ Restart/reset functionality</li>
-                    <li>✅ Responsive and user-friendly UI </li>
-                </ul>
-                <p>This project demonstrates fundamental front-end development skills, including DOM manipulation, event handling, and game logic implementation in JavaScript.</p>
-                <a href="https://github.com/mohammadsohrab/Tic-Tac-Toe-Game-mohdsohrab" target="_blank">View on GitHub</a><br>
-                <a href="https://tic-tac-toe-game-mohdsohrab.vercel.app/" target="_blank">View on Versel</a>
-            </div>
-        </div>
-
-    </div>
-</section>
-
-  
-        <section id="education">
-            <h2>Education</h2>
-            <div class="education-container">
-                <div class="education-box">
-                    <h3>Bachelor's in Computer applications</h3>
-                    <p><strong>Makhanlal University</strong></p>
-                    <p>2020 - 2022</p>
-                    <p>Relevant Coursework: Data Structures, Algorithms, Database Management, Software Engineering</p>
-                </div>
-        
-                <div class="education-box">
-                    <h3>Master's Computer Application</h3>
-                    <p><strong>SAM Global University</strong></p>
-                    <p>2023 - Present</p>
-                    <p>Focus on Cloud Computing, Backend Development, and AI Integration</p>
-                </div>
-            </div>
-        </section>
-        
-  
-
-       
-        <section id="skills">
-            <h2>My Skills</h2>
-            <div class="skills-container">
-                <!-- Java Skill -->
-                <div class="skill">
-                    <div class="skill-inner">
-                        <div class="skill-img" style="background-image: url('resource/java-skill.png');"></div>
-                        <p class="skill-text">Java</p>
-                        <ul class="skill-details">
-                            <li>Strong knowledge in OOP's concepts.</li>
-                            <li>Good knowledge on Static and Non-Static, Access Specifiers, Constructor.</li>
-                            <li>Good knowledge on Method-Overloading and Method-Overriding.</li>
-                            <li>Good knowledge on Arrays, Typecasting and Polymorphism.</li>
-                            <li>Good knowledge on Exception Handling, Collection, and Abstraction.</li>
-                            <li>Good knowledge on Logical Programming.</li>
-                        </ul>
-                    </div>
-                </div>
-        
-                <!-- Spring Boot Skill -->
-                <div class="skill">
-                    <div class="skill-inner">
-                        <div class="skill-img" style="background-image: url('resource/spring.jpg');"></div>
-                        <p class="skill-text">Spring Boot</p>
-                        <ul class="skill-details">
-                            <li>Experience in developing RESTful APIs.</li>
-                            <li>Hands-on experience with Spring MVC and Dependency Injection.</li>
-                            <li>Good knowledge of Spring Security & JWT Authentication.</li>
-                            <li>Worked with Microservices Architecture.</li>
-                            <li>Used Spring Data JPA for database interactions.</li>
-                        </ul>
-                    </div>
-                </div>
-        
-                <!-- Add More Skills -->
-                <div class="skill">
-                    <div class="skill-inner">
-                        <div class="skill-img" style="background-image: url('resource/sql.jpg');"></div>
-                        <p class="skill-text">SQL</p>
-                        <ul class="skill-details">
-                            <li>Good knowledge on DBMS and RDBMS Concepts.</li>
-                            <li>Good knowledge on DDL, DML, DCL, TCL Commands.</li>
-                            <li>Good knowledge on Normalization and De-Normalization.</li>
-                            <li>Good knowledge on Indexes and it's types.</li>
-                            <li>Good knowledge on Constraints and it's types.</li>
-                            <li>Good knowledge on Triggers and it's types.</li>
-                            <li>Good knowledge on Views and it's types.</li>
-                            <li>Good knowledge on Functions, Creating views, Creating Stored Procedure.</li>
-                            <li>Good knowledge on Sub Queries and Co-related Sub Query.</li>
-                            <li>Good knowledge on Joins and it's types.</li>
-                            <li>Hands on experience on Writing Queries.</li>
-                         
-                        </ul>
-                    </div>
-                </div>
-                <div class="skill">
-                    <div class="skill-inner">
-                        <div class="skill-img" style="background-image: url('resource/jdbc.jpg');"></div>
-                        <p class="skill-text">JDBC and Hibernate</p>
-                        <ul class="skill-details">
-                        <li>Extensive knowledge on JDBC connection steps.</li>
-                           
-                            <li>Hands on experience on JDBC CRUD Operations. </li>
-                            <li>Good knowledge on JDBC connection steps.</li>
-<li>Strong knowledge on OMR concept.</li> 
-<li>Good knowledge on Java Persistence API. </li>
-<li>Good knowledge on Mapping.</li>                        
-                           <li>Good knowledge on API's and it's types. </li>
-                            <li>Strong knowledge on Drivers and it's types.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="skill">
-                    <div class="skill-inner">
-                        <div class="skill-img" style="background-image: url('resource/web.jpg');"></div>
-                        <p class="skill-text">Web Technology</p>
-                        <ul class="skill-details">
-                            <li>Good knowledge on HTML, CSS, JavaScript, and jQuery.</li>
-                            <li>Good knowledge on Bootstrap and Materialize CSS.</li>
-                            <li>Good knowledge on Node JS and Express JS.</li>
-                            <li>Good knowledge on JSON.</li>
-                            <li>Good knowledge on Web Services and RESTful APIs.</li>
-                            <li>Good knowledge on Web Hosting and Domain Management.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="skill">
-                    <div class="skill-inner">
-                        <div class="skill-img" style="background-image: url('resource/soft.jpg');"></div>
-                        <p class="skill-text">Strength</p>
-                        <ul class="skill-details">
-                            <li>Problem-solving skills.</li>
-                            <li>Leadership skill.</li>
-                            <li>Time management skills.</li>
-                            <li>Positive attitude Adaptability. </li>
-                            <li>Quick learner.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        
-        <section id="about">
-            <h2>About Me</h2>
-            <div class="about-container">
-                <!-- About Box (Profile Picture + Description) -->
-                <div class="about-box">
-                    <img src="resource/pofile-removebg-preview.png" alt="Profile Picture">
-                    <p class="about-text">
-                        Hi, I'm <span class="highlight">Mohd Sohrab Sheikh</span>, a passionate web developer with a love for creating dynamic and interactive user experiences. I specialize in front-end and back-end development, and I'm always eager to learn new technologies.
-                    </p>
-                </div>
-        
-                <!-- Personal Details Box -->
-                <div class="details-box">
-                    <h3>Personal Details</h3>
+                <div class="tech-stack">
+                    <h3>Technologies I Work With:</h3>
                     <ul>
-                        <li><strong>Location:</strong>Bhopal, Madhya Pradesh</li>
-                        <li><strong>Email:</strong><a href="mailto:itsjustsohrab@gmail.com">Email Me</a>
-                        </li>
-                        <li><strong>Phone:</strong><a href="tel:+917566898882">+91 - 7566898882</a>
-                        </li>
-                        <li><strong>Birthday:</strong>August-23</li>
+                        <li><img src="resource/java-logo.png" alt="Java"></li>
+                        <li><img src="resource/spring-logo.svg" alt="Spring Boot"></li>
+                        <li><img src="resource/sql-database.svg" alt="SQL"></li>
+                        <li><img src="resource/html-logo.svg" alt="HTML"></li>
+                        <li><img src="resource/css-logo.svg" alt="CSS"></li>
+                        <li><img src="resource/js-logo.svg" alt="JS"></li>
                     </ul>
                 </div>
-        
-                <!-- Social Media Links Box -->
-                <div class="social-media-box">
-                    <h3>Connect with Me</h3>
-                    <div class="social-media">
-                        <a href="www.linkedin.com/in/mohd-sohrab-shiekh-480282349" target="_blank" class="social-icon linkedin">
-                            <i class="fab fa-linkedin-in"></i> LinkedIn
-                        </a>
-                        <a href="https://github.com/mohammadsohrab?tab=repositories" target="_blank" class="social-icon github">
-                            <i class="fab fa-github"></i> GitHub
-                        </a>
-                        <a href="https://twitter.com/yourprofile" target="_blank" class="social-icon twitter">
-                            <i class="fab fa-twitter"></i> Twitter
-                        </a>
-                        <a href="https://www.instagram.com/a.b.d.u.l_s.a.m.i_" target="_blank" class="social-icon instagram">
-                            <i class="fab fa-instagram"></i> Instagram
-                        </a>
-                    </div>
+            </div>
+
+            <div class="home-photo">
+                <img src="resource/pofile-removebg-preview.png" alt="Your Photo">
+            </div>
+        </div>
+    </section>
+
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects-container">
+
+            <div class="project-card">
+                <img src="resource/Tic-Tac_Toe.png" alt="Project 1">
+                <div class="project-info">
+                    <h3>Railway Ticket Booking System with Admin Interface</h3>
+                    <p>This project demonstrates fundamental front-end development skills, including DOM manipulation,
+                        event handling, and game logic implementation in JavaScript.</p>
+                    <h6>Features</h6>
+                    <ul>
+                        <li>✅ User Registration & Login – Secure authentication system for passengers</li>
+                        <li>✅ RSearch Trains – Users can search for available trains based on source and destination
+                        </li>
+                        <li>✅ Ticket Booking – Allows users to select trains, choose seats, and confirm bookings</li>
+                        <li>✅ Booking History – Users can view their past bookings and print tickets</li>
+                        <li>✅ Admin Panel – Admins can add, update, or remove train schedules </li>
+                    </ul>
+                    <p>This project demonstrates core Java web development skills, including Servlets, JSP, JDBC, and
+                        MySQL, along with front-end design and user interaction handling.</p>
+
+                    <a href="https://github.com/mohammadsohrab/railway_ticket_booking" target="_blank">View on
+                        GitHub</a>
                 </div>
             </div>
-        </section>
-        
-        
-          
+
+            <div class="project-card">
+                <img src="resource/Employee.png" alt="Project 2">
+                <div class="project-info">
+                    <h3>Employee Management System (Backend - Spring Boot)</h3>
+                    <p>The Employee Management System is a backend application designed to manage employee records,
+                        roles, and operations efficiently. Built using Spring Boot, it provides RESTful APIs for
+                        employee management, authentication, and role-based access control. The system is currently
+                        being tested using Postman, with plans for frontend integration in the future.</p>
+                    <h6>Features</h6>
+                    <ul>
+                        <li>✅ Employee CRUD Operations – Create, read, update, and delete employee records</li>
+                        <li>✅ Role-Based Access Control (RBAC) – Secure APIs with different user roles (Admin, Manager,
+                            Associate)</li>
+                        <li>✅ Authentication & Authorization – Secure login using JWT authentication</li>
+                        <li>✅ Department & Designation Management – Categorize employees into departments</li>
+                    </ul>
+                    <h6>Tech-Stack</h6>
+                    <ul>
+                        <li>✅ Backend: Spring Boot, Spring Data JPA, Hibernate</li>
+                        <li>✅ Database: MySQL</li>
+                        <li>✅ Security: Spring Security, JWT</li>
+                        <li>✅ API Testing: Postman</li>
+                    </ul>
+                    <a href="https://github.com/mohammadsohrab/Employee-Management" target="_blank">View on GitHub</a>
+
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="resource/Tic-Tac_Toe.png" alt="Project 3">
+                <div class="project-info">
+                    <h3>Tic-Tac-Toe Game</h3>
+                    <p>This is a simple yet engaging Tic-Tac-Toe game built using HTML, CSS, and JavaScript. The game
+                        features a clean and responsive design, allowing two players to take turns marking "X" and "O"
+                        on a 3x3 grid. The first player to align three marks horizontally, vertically, or diagonally
+                        wins the game.</p>
+                    <h6>Features</h6>
+                    <ul>
+                        <li>✅ Interactive two-player mode</li>
+                        <li>✅ Real-time game status updates</li>
+                        <li>✅ Winning combination detection</li>
+                        <li>✅ Restart/reset functionality</li>
+                        <li>✅ Responsive and user-friendly UI </li>
+                    </ul>
+                    <p>This project demonstrates fundamental front-end development skills, including DOM manipulation,
+                        event handling, and game logic implementation in JavaScript.</p>
+                    <a href="https://github.com/mohammadsohrab/Tic-Tac-Toe-Game-mohdsohrab" target="_blank">View on
+                        GitHub</a><br>
+                    <a href="https://tic-tac-toe-game-mohdsohrab.vercel.app/" target="_blank">View on Versel</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
 
 
-   <script>
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education-container">
+            <div class="education-box">
+                <h3>Bachelor's in Computer applications</h3>
+                <p><strong>Makhanlal University</strong></p>
+                <p>2020 - 2022</p>
+                <p>Relevant Coursework: Data Structures, Algorithms, Database Management, Software Engineering</p>
+            </div>
+
+            <div class="education-box">
+                <h3>Master's Computer Application</h3>
+                <p><strong>SAM Global University</strong></p>
+                <p>2023 - Present</p>
+                <p>Focus on Cloud Computing, Backend Development, and AI Integration</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <!-- Java Skill -->
+            <div class="skill">
+                <div class="skill-inner">
+                    <div class="skill-img" style="background-image: url('resource/java-skill.png');"></div>
+                    <p class="skill-text">Java</p>
+                    <ul class="skill-details">
+                        <li>Strong knowledge in OOP's concepts.</li>
+                        <li>Good knowledge on Static and Non-Static, Access Specifiers, Constructor.</li>
+                        <li>Good knowledge on Method-Overloading and Method-Overriding.</li>
+                        <li>Good knowledge on Arrays, Typecasting and Polymorphism.</li>
+                        <li>Good knowledge on Exception Handling, Collection, and Abstraction.</li>
+                        <li>Good knowledge on Logical Programming.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Spring Boot Skill -->
+            <div class="skill">
+                <div class="skill-inner">
+                    <div class="skill-img" style="background-image: url('resource/spring.jpg');"></div>
+                    <p class="skill-text">Spring Boot</p>
+                    <ul class="skill-details">
+                        <li>Experience in developing RESTful APIs.</li>
+                        <li>Hands-on experience with Spring MVC and Dependency Injection.</li>
+                        <li>Good knowledge of Spring Security & JWT Authentication.</li>
+                        <li>Worked with Microservices Architecture.</li>
+                        <li>Used Spring Data JPA for database interactions.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Add More Skills -->
+            <div class="skill">
+                <div class="skill-inner">
+                    <div class="skill-img" style="background-image: url('resource/sql.jpg');"></div>
+                    <p class="skill-text">SQL</p>
+                    <ul class="skill-details">
+                        <li>Good knowledge on DBMS and RDBMS Concepts.</li>
+                        <li>Good knowledge on DDL, DML, DCL, TCL Commands.</li>
+                        <li>Good knowledge on Normalization and De-Normalization.</li>
+                        <li>Good knowledge on Indexes and it's types.</li>
+                        <li>Good knowledge on Constraints and it's types.</li>
+                        <li>Good knowledge on Triggers and it's types.</li>
+                        <li>Good knowledge on Views and it's types.</li>
+                        <li>Good knowledge on Functions, Creating views, Creating Stored Procedure.</li>
+                        <li>Good knowledge on Sub Queries and Co-related Sub Query.</li>
+                        <li>Good knowledge on Joins and it's types.</li>
+                        <li>Hands on experience on Writing Queries.</li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-inner">
+                    <div class="skill-img" style="background-image: url('resource/jdbc.jpg');"></div>
+                    <p class="skill-text">JDBC and Hibernate</p>
+                    <ul class="skill-details">
+                        <li>Extensive knowledge on JDBC connection steps.</li>
+
+                        <li>Hands on experience on JDBC CRUD Operations. </li>
+                        <li>Good knowledge on JDBC connection steps.</li>
+                        <li>Strong knowledge on OMR concept.</li>
+                        <li>Good knowledge on Java Persistence API. </li>
+                        <li>Good knowledge on Mapping.</li>
+                        <li>Good knowledge on API's and it's types. </li>
+                        <li>Strong knowledge on Drivers and it's types.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-inner">
+                    <div class="skill-img" style="background-image: url('resource/web.jpg');"></div>
+                    <p class="skill-text">Web Technology</p>
+                    <ul class="skill-details">
+                        <li>Good knowledge on HTML, CSS, JavaScript, and jQuery.</li>
+                        <li>Good knowledge on Bootstrap and Materialize CSS.</li>
+                        <li>Good knowledge on Node JS and Express JS.</li>
+                        <li>Good knowledge on JSON.</li>
+                        <li>Good knowledge on Web Services and RESTful APIs.</li>
+                        <li>Good knowledge on Web Hosting and Domain Management.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-inner">
+                    <div class="skill-img" style="background-image: url('resource/soft.jpg');"></div>
+                    <p class="skill-text">Strength</p>
+                    <ul class="skill-details">
+                        <li>Problem-solving skills.</li>
+                        <li>Leadership skill.</li>
+                        <li>Time management skills.</li>
+                        <li>Positive attitude Adaptability. </li>
+                        <li>Quick learner.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <!-- About Box (Profile Picture + Description) -->
+            <div class="about-box">
+                <img src="resource/pofile-removebg-preview.png" alt="Profile Picture">
+                <p class="about-text">
+                    Hi, I'm <span class="highlight">Mohd Sohrab Sheikh</span>, a passionate web developer with a love
+                    for creating dynamic and interactive user experiences. I specialize in front-end and back-end
+                    development, and I'm always eager to learn new technologies.
+                </p>
+            </div>
+
+            <!-- Personal Details Box -->
+            <div class="details-box">
+                <h3>Personal Details</h3>
+                <ul>
+                    <li><strong>Location:</strong>Bhopal, Madhya Pradesh</li>
+                    <li><strong>Email:</strong><a href="mailto:itsjustsohrab@gmail.com">Email Me</a>
+                    </li>
+                    <li><strong>Phone:</strong><a href="tel:+917566898882">+91 - 7566898882</a>
+                    </li>
+                    <li><strong>Birthday:</strong>August-23</li>
+                </ul>
+            </div>
+
+            <!-- Social Media Links Box -->
+            <div class="social-media-box">
+                <h3>Connect with Me</h3>
+                <div class="social-media">
+                    <a href="www.linkedin.com/in/mohd-sohrab-shiekh-480282349" target="_blank"
+                        class="social-icon linkedin">
+                        <i class="fab fa-linkedin-in"></i> LinkedIn
+                    </a>
+                    <a href="https://github.com/mohammadsohrab?tab=repositories" target="_blank"
+                        class="social-icon github">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="https://twitter.com/yourprofile" target="_blank" class="social-icon twitter">
+                        <i class="fab fa-twitter"></i> Twitter
+                    </a>
+                    <a href="https://www.instagram.com/a.b.d.u.l_s.a.m.i_" target="_blank"
+                        class="social-icon instagram">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <script>
         const words = ["Java", "Spring Boot", "Hibernate", "Microservices", "MYSQL", "MongoDB"];
         let index = 0;
-    
+
         function typeText() {
             let textElement = document.querySelector(".dynamic-text");
             textElement.textContent = words[index]; // Update text
             index = (index + 1) % words.length; // Loop back to start
         }
-    
+
         setInterval(typeText, 2000); // Change text every 3 seconds
         typeText(); // Initial call
     </script>
-     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
-     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    
-    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
 </body>
+
 </html>
