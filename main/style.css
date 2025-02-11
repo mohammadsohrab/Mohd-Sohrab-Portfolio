@@ -238,7 +238,7 @@ h5{
   text-align: center;
   background: #90e0ef;
 }
-#projects h2 {
+#projects h2  {
   font-size: 2em;
   color: #03045e;
   margin-bottom: 30px;
@@ -283,12 +283,14 @@ h5{
   margin-bottom: 5px;
 }
 
-.project-info p {
+.project-info p,li{
   font-size: 14px;
   color: #0077b6;
+  list-style: none;
+  
 }
 
-.project-info a {
+.project-info a , h6{
   display: inline-block;
   margin-top: 10px;
   color: #03045e;
